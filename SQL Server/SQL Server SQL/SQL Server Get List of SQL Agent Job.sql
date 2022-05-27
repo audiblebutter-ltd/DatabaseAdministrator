@@ -1,10 +1,4 @@
-/*
-Arther: Gareth Winterman
-Created: 07/12/2017
-Company: Nottingham City Council
-Description: SQL script to show setup jobs
-in the Agent Schedule.
-											*/
+
 use msdb;
 
 select 
