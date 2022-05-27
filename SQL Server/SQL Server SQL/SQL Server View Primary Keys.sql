@@ -1,4 +1,4 @@
-use SSISDB
+
 SELECT  i.name AS IndexName,
         OBJECT_NAME(ic.OBJECT_ID) AS TableName,
         COL_NAME(ic.OBJECT_ID,ic.column_id) AS ColumnName
