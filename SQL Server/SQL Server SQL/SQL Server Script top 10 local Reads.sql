@@ -1,4 +1,3 @@
-
 SELECT TOP (10) total_logical_reads/execution_count AS AvgLogicalReads,
                 SUBSTRING(st.text, (qs.statement_start_offset/2) + 1,
                 ((CASE statement_end_offset 

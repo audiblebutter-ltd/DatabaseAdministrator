@@ -14,7 +14,7 @@ $stuff1 = Invoke-Sqlcmd -query "
  select [replica_server_name, name from [DBREPORTS].[dbo].[AO_status]
 
 
-" -Database "DBREPORTS" -ServerInstance "NCCSQL17DBALIS"
+" -Database "DBREPORTS" -ServerInstance "XXX"
 
 $table1 = $stuff1 | Format-Table
 $table1 
