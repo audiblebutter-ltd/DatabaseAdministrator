@@ -1,5 +1,4 @@
 -- 
- 
 ALTER DATABASE PartitioningDB
 ADD FILEGROUP January
 GO
