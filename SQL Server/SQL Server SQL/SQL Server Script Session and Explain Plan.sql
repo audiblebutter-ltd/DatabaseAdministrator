@@ -1,19 +1,6 @@
 CREATE PROCEDURE dbo.Pk_sessions_and_explain_plan
 AS
 
-/*
-----------------------------------------------------------------------------
--- Object Name: dbo.Pk_sessions_and_explain_plan
--- Project: RHE Monitor Sessions
--- Business Process: Monitor Sessions
--- Purpose: Insert a record into a table
--- Detailed Description: Insert a record into the dbo.Pk_sessions_and_explain_plan table
--- Database: _DBA
--- Dependent Objects: None
--- Called By: John Green
--- Upstream Systems: N\A
--- Downstream Systems: N\A
-*/
 
 SET NOCOUNT ON
 insert into sessions_and_explain_plan
