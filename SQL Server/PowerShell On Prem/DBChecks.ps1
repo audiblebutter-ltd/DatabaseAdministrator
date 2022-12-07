@@ -16,7 +16,7 @@ SELECT [servname]
       ,[state_desc]
   FROM [DBREPORTS].[dbo].[morning_Check_DB]
 
-" -Database "DBREPORTS" -ServerInstance "NCCSQL17DBALIS"
+" -Database "DBREPORTS" -ServerInstance "????"
  
  $array_flow1 | Format-Table
 
