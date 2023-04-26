@@ -19,7 +19,9 @@ insert into sessions_and_explain_plan
 		on s.session_id = r.session_id
 				cross apply sys.dm_exec_sql_text (r.sql_handle) as t
 				cross apply sys.dm_exec_query_plan(r.plan_handle) as p
-			where s.is_user_process = 1;
+			where s.is_user_process = 1
+--			and s.login_name != ORIGINAL_LOGIN()		-- uncoment if you want to exclude yourself
+			;
 /****** Object:  Table [dbo].[sessions_and_explain_plan]    Script Date: 15/04/2020 11:45:07 ******/
 SET ANSI_NULLS ON
 GO
